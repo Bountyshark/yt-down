@@ -17,6 +17,7 @@ on:
           - '360p (MP4 format)'
           - 'Audio (MP3 format)'
           - 'Best (Highest available)'
+        default: 'Audio (MP3 format)'
       password:
         description: 'ZIP Password (Optional - No ZIP applied if empty & under 95MB)'
         required: false
